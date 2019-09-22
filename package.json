@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "scripts": {
+    "build": "webpack ./src/main.js -o ./dist/bundle.js"
+  }
+}
